@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.shengguocun.com/blog/2018/05/07/hello-world/</loc>
+    
+    <lastmod>2018-05-07T06:56:29.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.shengguocun.com/blog/2018/04/20/a-bite-of-golang/</loc>
     
     <lastmod>2018-04-26T14:02:35.000Z</lastmod>
@@ -26,13 +33,6 @@
     <loc>https://www.shengguocun.com/about/index.html</loc>
     
     <lastmod>2018-03-14T09:53:31.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://www.shengguocun.com/blog/2018/02/08/hello-world/</loc>
-    
-    <lastmod>2018-02-08T14:44:23.000Z</lastmod>
     
   </url>
   
