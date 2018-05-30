@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.shengguocun.com/"/>
-  <updated>2018-05-30T13:43:14.000Z</updated>
+  <updated>2018-05-30T13:53:51.000Z</updated>
   <id>https://www.shengguocun.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://www.shengguocun.com//blog/2018/05/18/automatic-investment-plan-by-golang/"/>
     <id>https://www.shengguocun.com//blog/2018/05/18/automatic-investment-plan-by-golang/</id>
     <published>2018-05-18T13:30:07.000Z</published>
-    <updated>2018-05-30T13:43:14.000Z</updated>
+    <updated>2018-05-30T13:53:51.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="0、前言"><a href="#0、前言" class="headerlink" title="0、前言"></a>0、前言</h2><p>在平时基金定投的过程中，因为各家基金公司的系统定投系统功能太过单一，即使定期不定额的方式也不能满足多个梯度的自定义的需求，只能设置高于成本某个阈值或者低于成本某个阈值设置相应的定投值；但是我们想有梯度的定投而不是简单的三个点。为了满足当前我的简单的需求，我希望能够有更灵活的自定义定投设置，靠人不如靠自己，下面就开始吧。</p><h2 id="1、概念介绍"><a href="#1、概念介绍" class="headerlink" title="1、概念介绍"></a>1、概念介绍</h2><ul><li><p>净值估算：净值估算每个交易日9：30-15：00盘中实时更新（QDII基金为海外交易时段），是按照基金持仓、指数走势和基金过往业绩估算，估算数据并不代表真实净值，仅供参考，请以基金管理人披露净值为准。</p></li><li><p>指数温度：指数温度 = ( PE + PB ) / 2</p></li><li><p>PE：PE就是我们一般所说的市盈率，即每股股价与每股收益的比率．用来反映投资该股票的风险，一般来说比率越低越安全；</p></li><li><p>PB：PB即市净率。市净率 = 股票市价 / 每股净资产，市净率越低的股票，其投资价值越高。</p></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="0、前言"><a href="#0、前言" class="headerlink" title="0、前言"></a>0、前言</h2><p>在平时基金定投的过程中，因为各家基金公司的系统定投系统功能太过单一，即使定期不定额的方式也不能满足多个梯度的自定义的需求，只能设置高于成本某个阈值或者低于成本某个阈值设置相应的定投值；但是我们想有梯度的定投而不是简单的三个点。为了满足当前我的简单的需求（希望能够有更灵活的自定义定投设置），靠人不如靠自己，下面就开始吧。</p><h2 id="1、概念介绍"><a href="#1、概念介绍" class="headerlink" title="1、概念介绍"></a>1、概念介绍</h2><h4 id="净值估算"><a href="#净值估算" class="headerlink" title="净值估算"></a>净值估算</h4><p>净值估算每个交易日9：30-15：00盘中实时更新（QDII基金为海外交易时段），是按照基金持仓、指数走势和基金过往业绩估算，估算数据并不代表真实净值，仅供参考，请以基金管理人披露净值为准。</p><h4 id="指数温度"><a href="#指数温度" class="headerlink" title="指数温度"></a>指数温度</h4><p>指数温度 = ( PE + PB ) / 2</p><h4 id="PE"><a href="#PE" class="headerlink" title="PE"></a>PE</h4><p>PE就是我们一般所说的市盈率，即每股股价与每股收益的比率．用来反映投资该股票的风险，一般来说比率越低越安全；</p><h4 id="PB"><a href="#PB" class="headerlink" title="PB"></a>PB</h4><p>PB即市净率。市净率 = 股票市价 / 每股净资产，市净率越低的股票，其投资价值越高。</p>]]></content>
     
     <summary type="html">
     
