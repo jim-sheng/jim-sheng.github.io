@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://www.shengguocun.com/"/>
-  <updated>2018-05-18T13:36:14.000Z</updated>
+  <updated>2018-05-30T13:43:14.000Z</updated>
   <id>https://www.shengguocun.com/</id>
   
   <author>
@@ -17,19 +17,19 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Go语言实现简易基金定投系统</title>
+    <title>基于Go语言的简易基金定投系统</title>
     <link href="https://www.shengguocun.com//blog/2018/05/18/automatic-investment-plan-by-golang/"/>
     <id>https://www.shengguocun.com//blog/2018/05/18/automatic-investment-plan-by-golang/</id>
     <published>2018-05-18T13:30:07.000Z</published>
-    <updated>2018-05-18T13:36:14.000Z</updated>
+    <updated>2018-05-30T13:43:14.000Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>在平时基金定投的过程中，因为各家基金公司的系统定投系统功能太过单一，即使定期不定额的方式也不能满足多个梯度的自定义的，只能设置高于成本某个阈值或者低于成本某个阈值设置相应的定投值；要是我们想有梯度的定投而不是简单的三个点。为了满足当前我的简单的需求，我也希望</p>]]></content>
+    <content type="html"><![CDATA[<h2 id="0、前言"><a href="#0、前言" class="headerlink" title="0、前言"></a>0、前言</h2><p>在平时基金定投的过程中，因为各家基金公司的系统定投系统功能太过单一，即使定期不定额的方式也不能满足多个梯度的自定义的需求，只能设置高于成本某个阈值或者低于成本某个阈值设置相应的定投值；但是我们想有梯度的定投而不是简单的三个点。为了满足当前我的简单的需求，我希望能够有更灵活的自定义定投设置，靠人不如靠自己，下面就开始吧。</p><h2 id="1、概念介绍"><a href="#1、概念介绍" class="headerlink" title="1、概念介绍"></a>1、概念介绍</h2><ul><li><p>净值估算：净值估算每个交易日9：30-15：00盘中实时更新（QDII基金为海外交易时段），是按照基金持仓、指数走势和基金过往业绩估算，估算数据并不代表真实净值，仅供参考，请以基金管理人披露净值为准。</p></li><li><p>指数温度：指数温度 = ( PE + PB ) / 2</p></li><li><p>PE：PE就是我们一般所说的市盈率，即每股股价与每股收益的比率．用来反映投资该股票的风险，一般来说比率越低越安全；</p></li><li><p>PB：PB即市净率。市净率 = 股票市价 / 每股净资产，市净率越低的股票，其投资价值越高。</p></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;在平时基金定投的过程中，因为各家基金公司的系统定投系统功能太过单一，即使定期不定额的方式也不能满足多个梯度的自定义的，只能设置高于成本某个阈
+        &lt;h2 id=&quot;0、前言&quot;&gt;&lt;a href=&quot;#0、前言&quot; class=&quot;headerlink&quot; title=&quot;0、前言&quot;&gt;&lt;/a&gt;0、前言&lt;/h2&gt;&lt;p&gt;在平时基金定投的过程中，因为各家基金公司的系统定投系统功能太过单一，即使定期不定额的方式也不能满足多个梯度的自定义的需求，只
       
     
     </summary>
@@ -37,7 +37,9 @@
     
       <category term="Go语言" scheme="https://www.shengguocun.com/tags/Go%E8%AF%AD%E8%A8%80/"/>
     
-      <category term="基金定投" scheme="https://www.shengguocun.com/tags/%E5%9F%BA%E9%87%91%E5%AE%9A%E6%8A%95/"/>
+      <category term="基金" scheme="https://www.shengguocun.com/tags/%E5%9F%BA%E9%87%91/"/>
+    
+      <category term="定投" scheme="https://www.shengguocun.com/tags/%E5%AE%9A%E6%8A%95/"/>
     
   </entry>
   
