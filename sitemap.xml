@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://www.shengguocun.com/blog/2018/09/19/quick-start-Vanilla-lua-web-framework/</loc>
+    
+    <lastmod>2018-09-19T13:20:32.000Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.shengguocun.com/blog/2018/08/01/nginx-book/</loc>
+    
+    <lastmod>2018-08-01T10:54:04.000Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://www.shengguocun.com/blog/2018/05/18/automatic-investment-plan-by-golang/</loc>
     
     <lastmod>2018-05-30T13:53:51.000Z</lastmod>
